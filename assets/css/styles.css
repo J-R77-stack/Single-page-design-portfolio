@@ -6,22 +6,36 @@ body {
 
 .grid-container {
     display: grid;
+    justify-content: space-around;
     grid-template-columns: auto auto;
 }
 
 .img1 {
     margin-top: 20px;
-
 }
 
 .button1 {
     background-color: #030303;
     border: none;
     color: #FFF7F0;
-    padding: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
     border-radius: 30px;
     margin-top: 20px;
+    font-size: 18px;
+}
+
+.grid-item3 {
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.grid-item4 {
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    color: #7A746E;
 }
