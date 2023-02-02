@@ -10,6 +10,10 @@ body {
     grid-template-columns: auto auto;
 }
 
+.grid-item1 {
+    margin-right: 660px;
+}
+
 .img1 {
     margin-top: 20px;
 }
@@ -23,9 +27,11 @@ body {
     padding-right: 40px;
     text-align: center;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 18px;
 }
+
+
 
 .grid-item3 {
     font-size: 56px;
@@ -38,4 +44,61 @@ body {
     line-height: 28px;
     text-align: center;
     color: #7A746E;
+}
+
+
+@media (max-width: 1142px) {
+    .grid-item3 {
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+    }
+
+    .grid-item1 {
+        margin-right: 500px;
+    }
+
+    .grid-item4 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #7A746E;
+    }
+}
+
+@media (max-width: 810px) {
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+    }
+
+    .grid-item1 {
+        margin-right: 400px;
+    }
+}
+
+@media (max-width: 705px) {
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+    }
+
+    .grid-item1 {
+        margin-right: 100px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .grid-container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto;
+    }
+
+    .grid-item1 {
+        margin-right: 50px;
+    }
 }
