@@ -40,7 +40,7 @@ body {
 }
 
 .grid-item4 {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 28px;
     text-align: center;
     color: #7A746E;
@@ -101,4 +101,18 @@ body {
     .grid-item1 {
         margin-right: 50px;
     }
+}
+
+@media screen and (max-width:820px) {
+    span.wrap {
+        white-space: nowrap;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    span.wrap {
+        white-space: nowrap;
+    }
+
 }
