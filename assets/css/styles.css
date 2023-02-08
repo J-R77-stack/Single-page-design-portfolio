@@ -46,6 +46,41 @@ body {
     color: #7A746E;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+
+.flex-container .graphic {
+    background-color: #755CDE;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container .uiux {
+    background-color: #F6A560;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container .apps {
+    background-color: #F39E9E;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
 
 @media (max-width: 1142px) {
     .grid-item3 {
