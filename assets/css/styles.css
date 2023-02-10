@@ -46,68 +46,88 @@ body {
     color: #7A746E;
 }
 
-.flex-container {
+* {
+    box-sizing: border-box;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: DodgerBlue;
+    /* padding: 0 4px; */
 }
 
-.flex-container .graphic {
+.column {
+    /* flex: 33.3%;
+    max-width: 33.3%; */
+    padding: 0 10px;
+
+}
+
+
+.column .graphic {
     background-color: #755CDE;
-    width: 400px;
-    height: 400px;
-    margin: 10px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 500px;
+    height: 500px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-.flex-container .uiux {
+.column .uiux {
     background-color: #F6A560;
-    width: 190px;
-    height: 200px;
-    margin: 10px;
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 240px;
+    height: 250px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-.flex-container .apps {
+.column .apps {
     background-color: #F39E9E;
-    width: 190px;
-    height: 200px;
-    margin: 10px;
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-left: 10px;
+    width: 240px;
+    height: 250px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-.flex-container .illustrations {
+.column .illustrations {
     background-color: #EB7565;
-    width: 400px;
-    height: 190px;
-    margin: 10px;
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 500px;
+    height: 230px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-.flex-container .photography {
+.column .photography {
     background-color: #61c4b7;
-    width: 400px;
-    height: 200px;
-    margin: 10px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 500px;
+    height: 250px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
 }
 
-.flex-container .motion {
+.column .motion {
     background-color: #552049;
-    width: 400px;
-    height: 190px;
-    margin: 10px;
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 500px;
+    height: 230px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
