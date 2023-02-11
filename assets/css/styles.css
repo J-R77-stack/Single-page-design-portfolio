@@ -67,69 +67,105 @@ body {
 
 .column .graphic {
     background-color: #755CDE;
+    background-image: url("../images/pattern-graphic-design.svg");
+    background-position: 290px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 8px;
     vertical-align: middle;
-    width: 500px;
-    height: 500px;
-    text-align: center;
-    line-height: 75px;
+    width: 450px;
+    height: 450px;
+    text-align: left;
+    padding: 25px;
+    line-height: 770px;
     font-size: 30px;
 }
 
 .column .uiux {
     background-color: #F6A560;
+    background-image: url("../images/pattern-ui-ux.svg");
+    background-position: 120px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 8px;
     vertical-align: middle;
     margin-right: 10px;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    line-height: 75px;
+    width: 215px;
+    height: 225px;
+    text-align: left;
+    padding: 25px;
+    line-height: 310px;
     font-size: 30px;
 }
 
 .column .apps {
     background-color: #F39E9E;
+    background-image: url("../images/pattern-apps.svg");
+    background-position: 120px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 8px;
     vertical-align: middle;
     margin-left: 10px;
-    width: 240px;
-    height: 250px;
-    text-align: center;
-    line-height: 75px;
+    width: 215px;
+    height: 225px;
+    text-align: left;
+    padding: 25px;
+    line-height: 310px;
     font-size: 30px;
 }
 
 .column .illustrations {
     background-color: #EB7565;
+    background-image: url("../images/pattern-illustrations.svg");
+    background-position: 290px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 20px;
     vertical-align: middle;
-    width: 500px;
-    height: 230px;
-    text-align: center;
-    line-height: 75px;
+    width: 450px;
+    height: 205px;
+    text-align: left;
+    padding: 25px;
+    line-height: 280px;
     font-size: 30px;
 }
 
 .column .photography {
     background-color: #61c4b7;
+    background-image: url("../images/pattern-photography.svg");
+    background-position: 260px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 8px;
     vertical-align: middle;
-    width: 500px;
-    height: 250px;
-    text-align: center;
-    line-height: 75px;
+    width: 450px;
+    height: 225px;
+    text-align: left;
+    padding: 25px;
+    line-height: 310px;
     font-size: 30px;
 }
 
 .column .motion {
     background-color: #552049;
+    background-image: url("../images/pattern-motion-graphics.svg");
+    background-position: 290px 30px;
+    background-repeat: no-repeat;
+    color: #FFF7F0;
+    border-radius: 25px;
     margin-top: 20px;
     vertical-align: middle;
-    width: 500px;
-    height: 230px;
-    text-align: center;
-    line-height: 75px;
+    width: 450px;
+    height: 205px;
+    text-align: left;
+    padding: 25px;
+    line-height: 280px;
     font-size: 30px;
 }
 
