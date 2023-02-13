@@ -264,3 +264,99 @@ body {
         height: 225px;
     }
 }
+
+@media (max-width: 955px) {
+    div.photography {
+        position: static;
+    }
+}
+
+@media (max-width: 955px) {
+    div.motion {
+        position: static;
+    }
+}
+
+@media (max-width: 955px) {
+    .column .graphic {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 955px) {
+    .column .illustrations {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .column .graphic {
+        height: 350px;
+        width: 350px;
+        background-position: 200px 20px;
+        padding: 15px;
+        line-height: 600px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .column .uiux {
+        height: 175px;
+        width: 165px;
+        background-position: 80px 20px;
+        padding: 10px;
+        line-height: 280px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .column .apps {
+        height: 175px;
+        width: 165px;
+        background-position: 80px 20px;
+        padding: 10px;
+        line-height: 270px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .column .illustrations {
+        height: 175px;
+        width: 350px;
+        background-position: 200px 20px;
+        padding: 10px;
+        line-height: 270px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .column .photography {
+        height: 175px;
+        width: 350px;
+        background-position: 200px 20px;
+        padding: 10px;
+        line-height: 270px;
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .column .motion {
+        height: 175px;
+        width: 350px;
+        background-position: 200px 20px;
+        padding: 10px;
+        line-height: 270px;
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+}
