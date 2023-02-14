@@ -170,7 +170,32 @@ body {
 
 
 
+/* about me section */
+#about {
+    height: 600px;
+    padding-top: 50px;
+}
 
+
+#about-left {
+    width: 50%;
+    background-color: #552049;
+    float: left;
+}
+
+#about-right {
+    width: 50%;
+    float: right;
+}
+
+.right-about-heading {
+    float: right;
+    margin-bottom: 50px;
+}
+
+#about-heading {
+    font-size: 48px;
+}
 
 @media (max-width: 1142px) {
     .grid-item3 {
