@@ -230,9 +230,26 @@ body {
     }
 }
 
-#my-work-image {
-    background: url("../images/image-slide-1.jpg");
-    height: 600px;
+#my-work-heading {
+    margin-top: 200px;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    height: 400px;
+}
+
+.grid-container-3>div>img {
+    border-radius: 25px;
+}
+
+#arrows-left-right {
+    text-align: center;
 }
 
 @media (max-width: 810px) {
